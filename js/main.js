@@ -90,23 +90,23 @@ function loadImage() {
 function getTextOption(bingoSize) {
   switch (bingoSize) {
     case 1:
-      return { font: '80px Arial', x: 0, y: 0 };
+      return { font: '200px Arial', x: 0, y: 0 };
     case 2:
-      return { font: '40px Arial', x: 0, y: 0 };
+      return { font: '100px Arial', x: 0, y: 0 };
     case 3:
-      return { font: '20px Arial', x: 0, y: 0 };
+      return { font: '50px Arial', x: 0, y: 0 };
     case 4:
-      return { font: '15px Arial', x: 0, y: 0 };
+      return { font: '45px Arial', x: 0, y: 0 };
     case 5:
-      return { font: '12px Arial', x: 0, y: 0 };
+      return { font: '30px Arial', x: 0, y: 0 };
     case 6:
-      return { font: '10px Arial', x: -2, y: 2 };
+      return { font: '25px Arial', x: -2, y: 2 };
     case 7:
-      return { font: '10px Arial', x: -3, y: 3 };
+      return { font: '25px Arial', x: -3, y: 3 };
     case 8:
-      return { font: '9px Arial', x: -5, y: 5 };
+      return { font: '20px Arial', x: -5, y: 5 };
     case 9:
-      return { font: '8px Arial', x: -6, y: 6 };
+      return { font: '20px Arial', x: -6, y: 6 };
   }
   return { font: '20px Arial' };
 }
@@ -129,7 +129,7 @@ function drawImpl() {
         context.font = opt.font;
         context.fillStyle = selectedMusics[i].difficultyColor();
         context.strokeStyle = 'white';
-        context.lineWidth = 3;
+        context.lineWidth = 5;
         let textX = x + 10 + opt.x;
         let textY = y + baseSize - 10 + opt.y;
         context.strokeText(difficultyText, textX, textY);
