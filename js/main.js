@@ -162,6 +162,17 @@ function handleSelectChange() {
   drawImage();
 }
 
+function downloadCanvasAsImage() {
+  let canvas = document.getElementById('canvas');
+  let dataURL = canvas.toDataURL('image/png');
+  let link = document.createElement('a');
+  link.href = dataURL;
+  link.download = 'canvas_image.png';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 window.onload = function () {
   setMusics();
   drawImage();
