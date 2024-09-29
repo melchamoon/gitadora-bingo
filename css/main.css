@@ -1,0 +1,9 @@
+.form-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.vertical-margin {
+  margin-top: 18px;
+}
