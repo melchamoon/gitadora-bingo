@@ -167,7 +167,7 @@ function downloadCanvasAsImage() {
   let dataURL = canvas.toDataURL('image/png');
   let link = document.createElement('a');
   link.href = dataURL;
-  link.download = 'canvas_image.png';
+  link.download = 'gitadora_bingo.png';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
