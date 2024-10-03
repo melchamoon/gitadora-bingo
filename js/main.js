@@ -179,5 +179,8 @@ window.onload = function () {
 
   let select = document.getElementById('bingoSize')
   select.addEventListener('change', handleSelectChange);
-  new TomSelect('#itemSelect', {});
+  let settings = {
+    maxOptions: null,
+  };
+  new TomSelect('#itemSelect', settings);
 };
