@@ -1,1 +1,28 @@
-.DS_store
+# Settings
+.DS_Store
+.envrc
+.vscode/
+.vscode
+.cursor/
+.cursor
+
+# Applications
+bin/
+tmp/*
+!tmp/.gitkeep
+/docker/data
+/vendor
+reload.trigger
+
+# Scripts binaries
+scripts/check_files/check_files
+
+# SSH keys
+ansible/ec2_keys/*
+!ansible/ec2_keys/.gitkeep
+
+# Ansible cache
+ansible/**/*.retry
+
+# Node.js
+node_modules/
