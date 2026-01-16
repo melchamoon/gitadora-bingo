@@ -52,18 +52,24 @@ function App() {
 
   // 検索・入力用ステート
   const [searchQuery, setSearchQuery] = useState('')
+  const [isSearchFocused, setIsSearchFocused] = useState(false)
   const [selectedBaseMusic, setSelectedBaseMusic] = useState<typeof MOCK_MUSICS[0] | null>(null)
   const [tempDifficulty, setTempDifficulty] = useState<Difficulty>('NONE')
   const [tempLevel, setTempLevel] = useState('1.00')
 
   const filteredMusics = useMemo(() => {
-    if (!searchQuery || selectedBaseMusic) return []
+    if (selectedBaseMusic) return []
+
+    if (!searchQuery) {
+      return isSearchFocused ? MOCK_MUSICS.slice(0, 5) : []
+    }
+
     const lowerQuery = searchQuery.toLowerCase()
     return MOCK_MUSICS.filter(m =>
       m.title.toLowerCase().includes(lowerQuery) ||
       m.artist.toLowerCase().includes(lowerQuery)
     ).slice(0, 5)
-  }, [searchQuery, selectedBaseMusic])
+  }, [searchQuery, selectedBaseMusic, isSearchFocused])
 
   const totalCells = bingoSize * bingoSize
 
@@ -167,6 +173,8 @@ function App() {
                     placeholder="曲名・アーティスト検索"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
+                    onFocus={() => setIsSearchFocused(true)}
+                    onBlur={() => setTimeout(() => setIsSearchFocused(false), 200)}
                     className="w-full pl-10 p-2.5 text-sm rounded-xl border border-zinc-300 focus:ring-2 focus:ring-zinc-900 outline-none transition-all"
                   />
                   {filteredMusics.length > 0 && (
