@@ -14,9 +14,10 @@ export interface Music {
 
 export type BingoSize = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
 
-// 相対URLで参照
-export const getImageUrl = (id: number) => `images/${("00000" + id).slice(-5)}.png`;
-export const DEFAULT_IMAGE_URL = `images/select_music.png`;
+// BASE_URLを考慮したURLを取得
+const BASE_URL = import.meta.env.BASE_URL;
+export const getImageUrl = (id: number) => `${BASE_URL}images/${("00000" + id).slice(-5)}.png`;
+export const DEFAULT_IMAGE_URL = `${BASE_URL}images/select_music.png`;
 
 export function getDifficultyColor(difficulty: string): string {
   if (difficulty === "NONE") return "transparent";
