@@ -7416,5 +7416,773 @@ export const MOCK_MUSICS: Omit<Music, "difficulty" | "level">[] = [
     "title": "P9 exPt.",
     "artist": "Sebon",
     "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1476,
+    "title": "アイドル",
+    "artist": "Covered by BEMANI Sound Team \"HuΣeR ×wac × Yvya\" feat. 佐伯伊織",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1477,
+    "title": "ノクチルカ",
+    "artist": "神使轟く、激情の如く。",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1478,
+    "title": "雑踏、僕らの街",
+    "artist": "トゲナシトゲアリ",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1479,
+    "title": "GHOST",
+    "artist": "星街すいせい",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1480,
+    "title": "Same Blue",
+    "artist": "(Official髭男dism)",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1481,
+    "title": "晴る",
+    "artist": "ヨルシカ",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1482,
+    "title": "メタり！！（feat. Tom Morello）",
+    "artist": "BABYMETAL",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1483,
+    "title": "ラビットホール",
+    "artist": "DECO*27",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1484,
+    "title": "VENΦM",
+    "artist": "JILUKA",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1485,
+    "title": "かくれんぼ",
+    "artist": "AliA",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1486,
+    "title": "ロキ",
+    "artist": "みきとP",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1487,
+    "title": "ロストワンの号哭",
+    "artist": "Neru",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1488,
+    "title": "murmur twins (hotchpotch pop ver.)",
+    "artist": "covered by 音乃瀬奏(ReGLOSS)",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1489,
+    "title": "Shooting Star (GITADORA ver.)",
+    "artist": "ReGLOSS",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1490,
+    "title": "朱と碧のランページ (GITADORA ver.)",
+    "artist": "covered by 儒烏風亭らでん(ReGLOSS)",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1491,
+    "title": "カジノファイヤーことみちゃん (GITADORA ver.)",
+    "artist": "covered by 一条莉々華(ReGLOSS)",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1492,
+    "title": "リメンバーリメンバー (GITADORA ver.)",
+    "artist": "covered by 轟はじめ(ReGLOSS)",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1493,
+    "title": "Celestial Future",
+    "artist": "BEMANI Sound Team \"PopStars\" feat.ＯＲＩ姫",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1494,
+    "title": "輝石のDESTINATION feat. 花たん",
+    "artist": "SOUND HOLIC Vs. BEMANI Sound Team \"T.Kakuta\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1495,
+    "title": "シューティンスター★☆",
+    "artist": "BEMANI Sound Team \"ZAQUVA\" feat. 月乃",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1496,
+    "title": "Waza Anniversary Edition",
+    "artist": "Jimmy Weckl Loved by BEMANI Sound Team \"あさき\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1497,
+    "title": "Calm days",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1498,
+    "title": "愛はToxic! feat.Lilymone",
+    "artist": "Mitsuyo",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1499,
+    "title": "Astrum",
+    "artist": "零 -zero- × BEMANI Sound Team \"HuΣeR\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1500,
+    "title": "Multiverse",
+    "artist": "BEMANI Sound Team \"Coyaan\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1501,
+    "title": "Prog for your Soul",
+    "artist": "BEMANI Sound Team \"Seal Stellar Spectrum\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1502,
+    "title": "Zero Visibility",
+    "artist": "setsat",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1503,
+    "title": "Hopeful Daybreak!!!",
+    "artist": "cosMo@暴走P",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1504,
+    "title": "Over Time Groove",
+    "artist": "BEMANI Sound Team \"U1-ASAMi\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1505,
+    "title": "Qwerty",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1506,
+    "title": "SUIREN",
+    "artist": "BEMANI Sound Team \"TATSUYA\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1507,
+    "title": "宇宙怪獣ゴスラの誕生。そして、TO THE SKY.",
+    "artist": "BEMANI Sound Team \"桃山珍太郎\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1508,
+    "title": "Ruddle",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1509,
+    "title": "Sweet Summer",
+    "artist": "BEMANI Sound Team \"Sota F.\" feat. Starbitz",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1510,
+    "title": "Récolte",
+    "artist": "BEMANI Sound Team \"Loz\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1511,
+    "title": "Crystal Breath feat. Sennzai",
+    "artist": "CANVAS feat.Quimär",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1512,
+    "title": "Invitation from ZEN",
+    "artist": "Satoshi Oka",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1513,
+    "title": "残像ニ繋ガレタ追憶ノHIDEAWAY",
+    "artist": "SOUND HOLIC Vs. BEMANI Sound Team \"KE!JU\" feat. Nana Takahashi",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1514,
+    "title": "閉塞的フレーション",
+    "artist": "Pizuya's Cell VS BEMANI Sound Team \"dj TAKA\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1515,
+    "title": "弾幕信仰",
+    "artist": "豚乙女×BEMANI Sound Team \"PON\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1516,
+    "title": "SUPER HEROINE!!",
+    "artist": "Amateras Records vs BEMANI Sound Team \"TATSUYA\" feat. miko",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1517,
+    "title": "スーパーヒーローシンドローム",
+    "artist": "BEMANI Sound Team \"KE!JU\" feat. ねんね",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1518,
+    "title": "PERFECT SHOW-TIME",
+    "artist": "竹内光雄&BEMANI Sound Team \"劇団レコード\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1519,
+    "title": "LET IT ROLL",
+    "artist": "good-cool w/z BEMANI Sound Team \"あさき\" ft.Pete Klassen",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1520,
+    "title": "GALAXY WAVE",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1521,
+    "title": "エンジェルマジック",
+    "artist": "くにたけ みゆき",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1522,
+    "title": "To the Sky",
+    "artist": "Rookie.F feat. Sean(from PHOENIX ASH)",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1523,
+    "title": "Graint",
+    "artist": "The Herb Shop",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1524,
+    "title": "Lover's High",
+    "artist": "APHs",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1525,
+    "title": "Rhythm Emotion",
+    "artist": "colors",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1526,
+    "title": "恋歌疾風！かるたクイーンいろは",
+    "artist": "ねこまんまチーム！",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1527,
+    "title": "乾坤一擲",
+    "artist": "SHIONY T.O. feat.歯医者マン",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1528,
+    "title": "天ぷらイントロドン！！",
+    "artist": "山本真央樹 feat.すわひでお",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1529,
+    "title": "CRIES IN THE WILDERNESS",
+    "artist": "泉 陸奥彦",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1530,
+    "title": "Snow Falcon",
+    "artist": "Mutsuhiko Izumi",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1531,
+    "title": "今夜はパジャマパーティ",
+    "artist": "日向美ビタースイーツ♪",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1532,
+    "title": "Heaven or Hell",
+    "artist": "Yusuke Koshiro",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1533,
+    "title": "Monogatary",
+    "artist": "BEMANI Sound Team \"PON ×あさき×Yvya\"",
+    "version": "GITADORA GALAXY WAVE"
+  },
+  {
+    "id": 1534,
+    "title": "Go To The Oasis",
+    "artist": "GRAN-NEW DRAMATIC BOYS",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1535,
+    "title": "Lawes's Parotia",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1536,
+    "title": "もうあおむけでいくしかない GITADORA MIX DE IKU SHIKA NAI Edition",
+    "artist": "Super Momo Tarosans",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1537,
+    "title": "FAKE TIME",
+    "artist": "dj REMO-CON",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1538,
+    "title": "乱膳の舞姫",
+    "artist": "BEMANI Sound Team \"Akhuta Works\" feat. mami",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1539,
+    "title": "For UltraPlayers",
+    "artist": "cosMo@暴走P",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1540,
+    "title": "青と夏",
+    "artist": "(Mrs. GREEN APPLE)",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1541,
+    "title": "インフェルノ",
+    "artist": "(Mrs. GREEN APPLE)",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1542,
+    "title": "怪獣の花唄",
+    "artist": "(Vaundy)",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1543,
+    "title": "完全感覚Dreamer",
+    "artist": "(ONE OK ROCK)",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1544,
+    "title": "メタルラブ・メソッド",
+    "artist": "周防パトラ feat.BEMANI Sound Team \"あさき\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1545,
+    "title": "ANEMONE -GITADORA EDITION-",
+    "artist": "BEMANI Sound Team \"HuΣeR × Yvya\" feat.紫村 花澄",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1546,
+    "title": "New Order",
+    "artist": "Maro feat. 溝手 るか",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1547,
+    "title": "Rewrite",
+    "artist": "okogeeechann",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1548,
+    "title": "Transparent Blue",
+    "artist": "石井 真之 feat.森 翼",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1549,
+    "title": "狂乱華夜 feat.shully",
+    "artist": "ヒゲドライバー",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1550,
+    "title": "耳鳴の理ー理ー理ー",
+    "artist": "Mitsuyo ＆ 赤飯",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1551,
+    "title": "水槽のクジラ",
+    "artist": "テヅカ feat. 大西あみみ",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1552,
+    "title": "揺蕩う青",
+    "artist": "タケベエイスケ feat.終ワ子",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1553,
+    "title": "ニケ",
+    "artist": "もふちゃん【おこさまぷれ～と。】 feat. MiA",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1554,
+    "title": "みゅ、みゅ、Müllる",
+    "artist": "月乃 & BEMANI Sound Team \"劇団レコード\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1555,
+    "title": "咲い咄",
+    "artist": "BEMANI Sound Team \"PHQUASE\" feat.かなたん",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1556,
+    "title": "Paradigm Shift",
+    "artist": "あまみ×ひなみ",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1557,
+    "title": "Bellatrix",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1558,
+    "title": "Questions That Should Not Be Answered",
+    "artist": "Yoshimi Kudo",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1559,
+    "title": "LIQUID NOTES",
+    "artist": "山本真央樹",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1560,
+    "title": "D光石火",
+    "artist": "Masahiro \"Godspeed\" Aoki (feat.TUB)",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1561,
+    "title": "Peyotl",
+    "artist": "The Herb Shop",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1562,
+    "title": "Neoverse",
+    "artist": "Yusuke Hiraga",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1563,
+    "title": "炎の結界",
+    "artist": "犬神凶子 & BEMANI Sound Team \"劇団レコード\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1564,
+    "title": "龍吟雲起 虎嘯風生 feat. Nana Takahashi / 709sec.",
+    "artist": "SOUND HOLIC Vs.BEMANI Sound Team \"L.E.D.\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1565,
+    "title": "チョンマゲ航空①便",
+    "artist": "Super Momo Tarosans",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1566,
+    "title": "FEEL the BREEZE",
+    "artist": "Des-ROW+edge dogs",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1567,
+    "title": "HARUKAZE",
+    "artist": "BEMANI Sound Team \"TATSUYA\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1568,
+    "title": "INSIDE-OUT",
+    "artist": "Ninezero",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1569,
+    "title": "Vain Desire",
+    "artist": "Hommarju ft. かぼちゃ",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1570,
+    "title": "アステリア",
+    "artist": "ミウラアイム feat. Az",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1571,
+    "title": "ライラ",
+    "artist": "大賀廉人 & MiA & BEMANI Sound Team \"あさき\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1572,
+    "title": "BREAKER",
+    "artist": "Yusuke Koshiro feat. AiLi",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1573,
+    "title": "Karma",
+    "artist": "baked new jack",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1574,
+    "title": "Brand New Rising",
+    "artist": "MEG feat. Keita Takeshita",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1575,
+    "title": "Shower of Love",
+    "artist": "Helen Morrison",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1576,
+    "title": "鉄拳制裁☆目覚めのキッス♡ feat.民安ともえ",
+    "artist": "Mitsuyo",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1577,
+    "title": "Let Me Go",
+    "artist": "Brad Holmes",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1578,
+    "title": "LOST",
+    "artist": "BEMANI Sound Team \"JUNKIE PANKY\" feat. SeshiroX",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1579,
+    "title": "Chervil",
+    "artist": "BEMANI Sound Team \"SYUNN\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1580,
+    "title": "拝啓センセーション",
+    "artist": "BEMANI Sound Team \"PON\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1581,
+    "title": "Cranberry",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1582,
+    "title": "Prowler",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1583,
+    "title": "Lost Garden",
+    "artist": "DuelJewelShun feat.XANVALA 巽",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1584,
+    "title": "DA・DA・DA 大転落",
+    "artist": "colors",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1585,
+    "title": "Ramen Messiah: Type B",
+    "artist": "SUSURU TV. × BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1586,
+    "title": "純勉夏",
+    "artist": "ションボリくらぶ feat.ジェットさん",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1587,
+    "title": "人類の進歩と調和？",
+    "artist": "BEMANI Sound Team \"Coyaan\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1588,
+    "title": "Quantum Game feat. 櫻井有紀",
+    "artist": "RENO",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1589,
+    "title": "Sugar Coaster Girl",
+    "artist": "Citrus and Ocean Colour",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1590,
+    "title": "Spiral Clouds",
+    "artist": "TIME CAPSULE Lab.",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1591,
+    "title": "ギャ・ギャ・ギャ・ギャラクシー！",
+    "artist": "つきみぐー、",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1592,
+    "title": "アイスクリームマジック",
+    "artist": "雪乃イト",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1593,
+    "title": "あおばの足音",
+    "artist": "駄菓子O型",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1594,
+    "title": "CHECKER FLAG",
+    "artist": "佐原至恩 feat. Leo",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1595,
+    "title": "Reason",
+    "artist": "NEXTRADE",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1596,
+    "title": "Ramen Messiah: Type A",
+    "artist": "SUSURU TV. × BEMANI Sound Team \"Yvya\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1597,
+    "title": "浅草浮世道中",
+    "artist": "浪曲師 東家志乃ぶ＆BEMANI Sound Team \"劇団レコード\"",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1598,
+    "title": "place of the sky",
+    "artist": "CROSSED FINGERS",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1599,
+    "title": "I, the Dreamer",
+    "artist": "Minstrel",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1600,
+    "title": "シュレーディンガーの猫 (GITADORA Edition)",
+    "artist": "Cait Sith Arranged by Power Of Nature",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1601,
+    "title": "Lachryma《Re:Queen’M》 (GITADORA Edition)",
+    "artist": "かねこちはる Arranged by effraie",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1602,
+    "title": "XENOViA (GITADORA Edition)",
+    "artist": "BlackY Arranged by The Herb Shop",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1603,
+    "title": "ENDYMION (GITADORA Edition)",
+    "artist": "NiActivity ft. CANVAS",
+    "version": "GITADORA GALAXY WAVE DELTA"
   }
 ];
