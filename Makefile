@@ -1,6 +1,6 @@
 repomix:
 	mkdir -p tmp/repomix
-	npx repomix --output tmp/repomix/repomix-output.txt --ignore "css/tom-select.min.css,js/tom-select.base.js"
+	npx repomix --output tmp/repomix/repomix-output.txt --ignore "**/*.png,**/*.jpg,**/*.jpeg,**/*.gif,src/data/**,tmp/**"
 
 ci:
-	@echo "No CI checks defined yet."
+	npm run build
