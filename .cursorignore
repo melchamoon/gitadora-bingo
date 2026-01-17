@@ -1,0 +1,38 @@
+# Cursor ignore file
+# This file tells Cursor which files and directories to ignore for indexing and search.
+
+# Large data files
+src/data/musics.ts
+
+# Assets (images, etc.)
+public/images/
+public/*.png
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.svg
+**/*.ico
+
+# Dependencies and build artifacts
+node_modules/
+dist/
+build/
+.next/
+.out/
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+*.log
+logs/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
