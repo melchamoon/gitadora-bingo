@@ -1,0 +1,4 @@
+---
+alwaysApply: true
+---
+- Do not perform destructive operations or finalize changes such as `git commit` or `git push` unless explicitly instructed by the user.
