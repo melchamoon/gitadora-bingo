@@ -26,11 +26,40 @@ interface SelectedMusic extends Music {
   instanceId: string;
 }
 
+type BingoCellData = SelectedMusic | null;
+
 function App() {
   const [bingoSize, setBingoSize] = useState<BingoSize>(3)
-  const [selectedMusics, setSelectedMusics] = useState<SelectedMusic[]>([])
+  const totalCells = bingoSize * bingoSize
+  const [selectedMusics, setSelectedMusics] = useState<BingoCellData[]>(Array(totalCells).fill(null))
   const [isDownloading, setIsDownloading] = useState(false)
   const bingoRef = useRef<HTMLDivElement>(null)
+
+  // 空のセル用のIDを生成
+  const getCellId = useCallback((index: number, cell: BingoCellData) => {
+    return cell?.instanceId || `empty-${index}`;
+  }, []);
+
+  // 全セルのIDリスト（D&D用）
+  const cellIds = useMemo(() => {
+    return selectedMusics.map((cell, i) => getCellId(i, cell));
+  }, [selectedMusics, getCellId]);
+
+  // bingoSize変更時に配列サイズを調整
+  const handleSizeChange = (newSize: BingoSize) => {
+    const newTotalCells = newSize * newSize;
+    setSelectedMusics(prev => {
+      const next = [...prev];
+      if (next.length < newTotalCells) {
+        // サイズが大きくなった場合はnullで埋める
+        return [...next, ...Array(newTotalCells - next.length).fill(null)];
+      } else {
+        // サイズが小さくなった場合は切り詰める
+        return next.slice(0, newTotalCells);
+      }
+    });
+    setBingoSize(newSize);
+  };
 
   // D&D センサーの設定
   const sensors = useSensors(
@@ -71,10 +100,11 @@ function App() {
     ).slice(0, 5)
   }, [searchQuery, selectedBaseMusic, isSearchFocused])
 
-  const totalCells = bingoSize * bingoSize
-
   const handleAddMusic = () => {
-    if (!selectedBaseMusic || selectedMusics.length >= totalCells) return
+    if (!selectedBaseMusic) return
+
+    const emptyIndex = selectedMusics.findIndex(m => m === null);
+    if (emptyIndex === -1) return;
 
     const newMusic: SelectedMusic = {
       ...selectedBaseMusic,
@@ -83,13 +113,17 @@ function App() {
       instanceId: `${selectedBaseMusic.id}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
     }
 
-    setSelectedMusics([...selectedMusics, newMusic])
+    const nextMusics = [...selectedMusics];
+    nextMusics[emptyIndex] = newMusic;
+    setSelectedMusics(nextMusics);
     setSelectedBaseMusic(null)
     setSearchQuery('')
   }
 
-  const handleRemoveMusic = (instanceId: string) => {
-    setSelectedMusics(prev => prev.filter((m) => m.instanceId !== instanceId))
+  const handleRemoveMusic = (index: number) => {
+    const nextMusics = [...selectedMusics];
+    nextMusics[index] = null;
+    setSelectedMusics(nextMusics);
   }
 
   const handleDragEnd = (event: DragEndEvent) => {
@@ -97,10 +131,13 @@ function App() {
 
     if (over && active.id !== over.id) {
       setSelectedMusics((items) => {
-        const oldIndex = items.findIndex((item) => item.instanceId === active.id);
-        const newIndex = items.findIndex((item) => item.instanceId === over.id);
+        const oldIndex = cellIds.indexOf(active.id as string);
+        const newIndex = cellIds.indexOf(over.id as string);
 
-        return arrayMove(items, oldIndex, newIndex);
+        if (oldIndex !== -1 && newIndex !== -1) {
+          return arrayMove(items, oldIndex, newIndex);
+        }
+        return items;
       });
     }
   };
@@ -149,7 +186,7 @@ function App() {
               </h2>
               <select
                 value={bingoSize}
-                onChange={(e) => setBingoSize(Number(e.target.value) as BingoSize)}
+                onChange={(e) => handleSizeChange(Number(e.target.value) as BingoSize)}
                 className="w-full p-2.5 rounded-xl border border-zinc-300 bg-white focus:ring-2 focus:ring-zinc-900 outline-none transition-all"
               >
                 {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(size => (
@@ -252,15 +289,15 @@ function App() {
                 </div>
                 <button
                   onClick={handleAddMusic}
-                  disabled={!selectedBaseMusic || selectedMusics.length >= totalCells}
+                  disabled={!selectedBaseMusic || selectedMusics.every(m => m !== null)}
                   className="w-full py-3 bg-zinc-900 hover:bg-black disabled:bg-zinc-300 text-white rounded-xl font-bold flex items-center justify-center gap-2 transition-all shadow-sm active:scale-[0.98]"
                 >
                   <Plus size={18} />
                   ビンゴに追加
                 </button>
                 <button
-                  onClick={() => setSelectedMusics([])}
-                  disabled={selectedMusics.length === 0}
+                  onClick={() => setSelectedMusics(Array(totalCells).fill(null))}
+                  disabled={selectedMusics.every(m => m === null)}
                   className="w-full py-3 bg-white hover:bg-zinc-50 disabled:opacity-50 text-zinc-600 border border-zinc-200 rounded-xl font-bold flex items-center justify-center gap-2 transition-all active:scale-[0.98]"
                 >
                   <Trash2 size={18} />
@@ -290,18 +327,17 @@ function App() {
                 }}
               >
                 <SortableContext
-                  items={selectedMusics.map(m => m.instanceId)}
+                  items={cellIds}
                   strategy={rectSortingStrategy}
                 >
-                  {Array.from({ length: totalCells }).map((_, i) => {
-                    const music = selectedMusics[i];
-                    const id = music?.instanceId || `empty-${i}`;
+                  {selectedMusics.map((music, i) => {
+                    const id = cellIds[i];
                     return (
                       <BingoCell
                         key={id}
                         id={id}
-                        music={music || null}
-                        onRemove={music ? () => handleRemoveMusic(music.instanceId) : undefined}
+                        music={music}
+                        onRemove={music ? () => handleRemoveMusic(i) : undefined}
                         isExporting={isDownloading}
                       />
                     );
@@ -317,7 +353,7 @@ function App() {
             <div className="flex justify-center mt-8">
               <button
                 onClick={handleDownload}
-                disabled={isDownloading || selectedMusics.length === 0}
+                disabled={isDownloading || selectedMusics.every(m => m === null)}
                 className="px-10 py-4 bg-blue-600 hover:bg-blue-700 disabled:bg-zinc-300 text-white rounded-full font-bold flex items-center gap-3 shadow-lg transition-all active:scale-95 hover:shadow-blue-200 hover:shadow-2xl"
               >
                 {isDownloading ? (

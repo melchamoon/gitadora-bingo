@@ -29,33 +29,25 @@ const BingoCell: React.FC<BingoCellProps> = ({ id, music, onRemove, isExporting 
     touchAction: 'none',
   };
 
-  if (!music) {
-    return (
-      <div className="aspect-square bg-zinc-200 border border-zinc-300 flex items-center justify-center overflow-hidden">
-        <img
-          src={DEFAULT_IMAGE_URL}
-          alt="Empty"
-          className="w-full h-full object-cover opacity-50"
-        />
-      </div>
-    );
-  }
-
-  const color = getDifficultyColor(music.difficulty);
-  const imageUrl = music.imageUrl || getImageUrl(music.id);
+  const color = music ? getDifficultyColor(music.difficulty) : 'transparent';
+  const imageUrl = music ? (music.imageUrl || getImageUrl(music.id)) : DEFAULT_IMAGE_URL;
 
   return (
     <div
       ref={setNodeRef}
       style={style}
-      className={`relative aspect-square bg-zinc-800 border border-zinc-400 overflow-hidden group ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
+      className={`relative aspect-square border overflow-hidden group ${
+        music ? 'bg-zinc-800 border-zinc-400' : 'bg-zinc-200 border-zinc-300'
+      } ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}`}
       {...attributes}
       {...listeners}
     >
       <img
         src={imageUrl}
-        alt={music.title}
-        className="w-full h-full object-cover transition-transform group-hover:scale-105"
+        alt={music?.title || "Empty"}
+        className={`w-full h-full object-cover transition-transform ${
+          music ? 'group-hover:scale-105' : 'opacity-50'
+        }`}
         loading="lazy"
         draggable={false}
       />
@@ -68,7 +60,7 @@ const BingoCell: React.FC<BingoCellProps> = ({ id, music, onRemove, isExporting 
       )}
 
       {/* 削除ボタン */}
-      {onRemove && !isExporting && (
+      {music && onRemove && !isExporting && (
         <button
           onClick={(e) => {
             e.stopPropagation();
@@ -82,7 +74,7 @@ const BingoCell: React.FC<BingoCellProps> = ({ id, music, onRemove, isExporting 
       )}
 
       {/* 難易度とレベルのラベル */}
-      {music.difficulty !== 'NONE' && (
+      {music && music.difficulty !== 'NONE' && (
         <div
           className="absolute bottom-1 right-1 px-1.5 py-0.5 rounded text-[10px] md:text-xs font-bold text-white shadow-md border border-white/20"
           style={{
