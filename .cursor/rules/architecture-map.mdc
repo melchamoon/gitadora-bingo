@@ -1,0 +1,24 @@
+---
+description: Maintain and utilize the architecture map for project consistency.
+globs: ["**/*.ts", "**/*.tsx", "architecture.md"]
+---
+
+# Architecture Map Maintenance Rule
+
+## Always Apply
+This rule applies whenever you are refactoring, splitting files, adding new features, or modifying the project structure.
+
+## Rules
+
+### 1. Update Obligation
+- You **must** update `architecture.md` whenever the project structure changes (e.g., file movements, new modules, changes in key logic/functions, or new dependencies).
+- The update should be performed either immediately before or after the code changes are finalized.
+
+### 2. Search Starting Point
+- When starting a new task, always read `architecture.md` first to understand the project structure and identify the relevant files to edit or reference.
+
+### 3. Language Consistency
+- The `architecture.md` file must be maintained in **English** to ensure maximum reasoning accuracy for AI.
+
+### 4. Synchronization
+- Ensure that the "Module Directory" and "Key Logic & Functions Map" sections in `architecture.md` accurately reflect the current state of the codebase.
