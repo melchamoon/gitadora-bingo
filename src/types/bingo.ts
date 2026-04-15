@@ -1,6 +1,16 @@
 export type DifficultyPrefix = 'BSC' | 'ADV' | 'EXT' | 'MAS';
 export type Instrument = 'D' | 'G' | 'B';
 export type Difficulty = `${DifficultyPrefix}-${Instrument}` | 'NONE';
+export type MusicLevels = Partial<Record<Exclude<Difficulty, 'NONE'>, string>>;
+
+export interface MusicBase {
+  id: number;
+  title: string;
+  artist: string;
+  version: string;
+  levels?: MusicLevels;
+  imageUrl?: string;
+}
 
 export interface Music {
   id: number;

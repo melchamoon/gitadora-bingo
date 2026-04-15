@@ -1,6 +1,6 @@
 import { useState, useCallback, useRef, useMemo } from 'react'
 import BingoCell from './components/BingoCell'
-import { Music, BingoSize, Difficulty, getImageUrl } from './types/bingo'
+import { Music, BingoSize, Difficulty, getImageUrl, MusicBase } from './types/bingo'
 import { Plus, Trash2, Download, Loader2, Search } from 'lucide-react'
 import { toPng } from 'html-to-image'
 import { MOCK_MUSICS } from './data/musics'
@@ -82,7 +82,7 @@ function App() {
   // 検索・入力用ステート
   const [searchQuery, setSearchQuery] = useState('')
   const [isSearchFocused, setIsSearchFocused] = useState(false)
-  const [selectedBaseMusic, setSelectedBaseMusic] = useState<typeof MOCK_MUSICS[0] | null>(null)
+  const [selectedBaseMusic, setSelectedBaseMusic] = useState<MusicBase | null>(null)
   const [tempDifficulty, setTempDifficulty] = useState<Difficulty>('NONE')
   const [tempLevel, setTempLevel] = useState('1.00')
 
@@ -99,6 +99,33 @@ function App() {
       m.artist.toLowerCase().includes(lowerQuery)
     ).slice(0, 5)
   }, [searchQuery, selectedBaseMusic, isSearchFocused])
+
+  const handleDifficultyChange = (newDifficulty: Difficulty) => {
+    setTempDifficulty(newDifficulty)
+
+    if (newDifficulty === 'NONE') {
+      setTempLevel('')
+      return
+    }
+
+    const autoLevel = selectedBaseMusic?.levels?.[newDifficulty]
+    if (autoLevel) {
+      setTempLevel(autoLevel)
+    }
+  }
+
+  const handleSelectBaseMusic = (music: MusicBase) => {
+    setSelectedBaseMusic(music)
+    setSearchQuery(music.title)
+    setIsSearchFocused(false)
+
+    if (tempDifficulty !== 'NONE') {
+      const autoLevel = music.levels?.[tempDifficulty]
+      if (autoLevel) {
+        setTempLevel(autoLevel)
+      }
+    }
+  }
 
   const handleAddMusic = () => {
     if (!selectedBaseMusic) return
@@ -219,10 +246,7 @@ function App() {
                       {filteredMusics.map(m => (
                         <button
                           key={m.id}
-                          onClick={() => {
-                            setSelectedBaseMusic(m)
-                            setSearchQuery(m.title)
-                          }}
+                          onClick={() => handleSelectBaseMusic(m)}
                           className="w-full p-3 text-left text-sm hover:bg-zinc-50 border-b last:border-0 border-zinc-100 transition-colors"
                         >
                           <div className="font-bold text-zinc-900">{m.title}</div>
@@ -255,7 +279,7 @@ function App() {
                 <div className="flex gap-2">
                   <select
                     value={tempDifficulty}
-                    onChange={(e) => setTempDifficulty(e.target.value as Difficulty)}
+                    onChange={(e) => handleDifficultyChange(e.target.value as Difficulty)}
                     className="flex-1 p-2.5 text-sm rounded-xl border border-zinc-300 bg-white focus:ring-2 focus:ring-zinc-900 outline-none transition-all"
                   >
                     <option value="NONE">なし</option>
