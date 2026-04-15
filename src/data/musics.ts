@@ -8184,5 +8184,1001 @@ export const MOCK_MUSICS: Omit<Music, "difficulty" | "level">[] = [
     "title": "ENDYMION (GITADORA Edition)",
     "artist": "NiActivity ft. CANVAS",
     "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1604,
+    "title": "1716 SAHARA MOON",
+    "artist": "BEMANI Sound Team \"泉 陸奥彦\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1605,
+    "title": "1816 WIND",
+    "artist": "BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1606,
+    "title": "40℃ Desert",
+    "artist": "BEMANI Sound Team \"Sota F.\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1608,
+    "title": "7th Floor",
+    "artist": "BEMANI Sound Team \"R & R Circuit\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1609,
+    "title": "Accord",
+    "artist": "BEMANI Sound Team \"HuΣeR\" feat.Fernweh",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1610,
+    "title": "Afterimage d'automne",
+    "artist": "BEMANI Sound Team \"猫叉劇団\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1611,
+    "title": "Aftermath",
+    "artist": "BEMANI Sound Team \"猫叉Master & あさき & Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1612,
+    "title": "Aion",
+    "artist": "BEMANI Sound Team \"Anonymous\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1613,
+    "title": "Alnilam",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1614,
+    "title": "Arena Argenticuria",
+    "artist": "BEMANI Sound Team \"Akhuta Works\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1615,
+    "title": "Arena Deiporta",
+    "artist": "BEMANI Sound Team \"Akhuta Works\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1616,
+    "title": "AVEL",
+    "artist": "BEMANI Sound Team \"Power Of Nature\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1617,
+    "title": "Beginning",
+    "artist": "BEMANI Sound Team \"TAG\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1618,
+    "title": "Black Apple",
+    "artist": "BEMANI Sound Team \"HuΣeR\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1619,
+    "title": "Bloody Iron Maiden",
+    "artist": "BEMANI Sound Team \"Loz\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1620,
+    "title": "Bonetrousle",
+    "artist": "Toby Fox (Arranged by BEMANI Sound Team \"劇団レコード\")",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1621,
+    "title": "Cajuput",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1622,
+    "title": "Catapulted Arch",
+    "artist": "BEMANI Sound Team \"person09\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1623,
+    "title": "Cinnamon",
+    "artist": "BEMANI Sound Team \"SYUNN\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1624,
+    "title": "Clove",
+    "artist": "BEMANI Sound Team \"SYUNN\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1625,
+    "title": "Comme le miel",
+    "artist": "BEMANI Sound Team \"TOMOSUKE\" feat.ボンジュール鈴木",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1626,
+    "title": "Devil's Rule",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1627,
+    "title": "Dragon Blade -The Arrange-",
+    "artist": "BEMANI Sound Team \"あさき\" & RENO",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1628,
+    "title": "Dreams on the road",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1629,
+    "title": "DUAL STRIKER",
+    "artist": "Mayumi Morinaga,Fernwehby BEMANI Sound Team \"L.E.D. & HuΣeR\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1630,
+    "title": "Duality",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1631,
+    "title": "Duella Lyrica",
+    "artist": "BEMANI Sound Team \"Akhuta Works\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1632,
+    "title": "ECLIPSE 2",
+    "artist": "BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1633,
+    "title": "Fractus",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1634,
+    "title": "Fuego -GITADORA EDITION-",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1635,
+    "title": "FUZZ-UP",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1636,
+    "title": "Get There",
+    "artist": "BEMANI Sound Team \"Yvya\" feat. 吾龍",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1637,
+    "title": "GLOW DOMINATE THE DARKNESS",
+    "artist": "SOUND HOLIC Vs. BEMANI Sound Team \"T.Kakuta\" feat. Nana Takahashi",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1638,
+    "title": "Hello summer",
+    "artist": "BEMANI Sound Team \"ビーチパラソルズ\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1639,
+    "title": "Hexer",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1640,
+    "title": "Immersed",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1641,
+    "title": "Inviolable Souls",
+    "artist": "竹内光雄&BEMANI Sound Team \"劇団レコード\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1642,
+    "title": "Invisible Farewell",
+    "artist": "BEMANI Sound Team \"TAKA×PON×Akhuta\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1643,
+    "title": "Iridescent Future",
+    "artist": "BEMANI Sound Team \"Yvya × OJ\" feat. ATSUMI UEDA",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1644,
+    "title": "Jetcoaster Windy",
+    "artist": "BEMANI Sound Team \"dj TAKA\" feat.のの",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1645,
+    "title": "Kazekiri Rumble",
+    "artist": "BEMANI Sound Team \"Akhuta Works\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1646,
+    "title": "Kilonova",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1647,
+    "title": "Kiwi",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1648,
+    "title": "Kramer Strat",
+    "artist": "BEMANI Sound Team \"R & R SHOXX\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1649,
+    "title": "La fame di Adria",
+    "artist": "BEMANI Sound Team \"PON\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1650,
+    "title": "LAS-BOS",
+    "artist": "Rookie.F feat.ダイナ四&BEMANI Sound Team \"あさき\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1651,
+    "title": "Last Goodbye / これでホントにサヨナラ",
+    "artist": "Toby Fox (Arranged by BEMANI Sound Team \"Akhuta Works\")",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1652,
+    "title": "Life is beautiful",
+    "artist": "BEMANI Sound Team \"猫叉Master\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1653,
+    "title": "LIKE A VAMPIRE",
+    "artist": "koyomi,星野奏子 by BEMANI Sound Team \"TAKA\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1654,
+    "title": "LOVE♥SHINE",
+    "artist": "小坂りゆ",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1655,
+    "title": "MAGIC MUSIC MAGIC",
+    "artist": "Melodie Sexton",
+    "version": "GF2&DM1"
+  },
+  {
+    "id": 1656,
+    "title": "Marjoram",
+    "artist": "BEMANI Sound Team \"SYUNN\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1657,
+    "title": "MEGALOVANIA",
+    "artist": "Toby Fox (Arranged by BEMANI Sound Team \"Yvya\")",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1658,
+    "title": "Mobius",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1659,
+    "title": "MODEL DD13",
+    "artist": "BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1660,
+    "title": "MODEL FT4",
+    "artist": "BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1661,
+    "title": "MONOLITH -GITADOROCK ver.-",
+    "artist": "TOMOSUKE feat.BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1662,
+    "title": "Mumbai Rock Festival",
+    "artist": "BEMANI Sound Team \"Sota Fujimori\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1663,
+    "title": "Nebulas",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1664,
+    "title": "NEX＋AGE",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1665,
+    "title": "ODYSSEY",
+    "artist": "BEMANI Sound Team \"Sota Fujimori\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1666,
+    "title": "Onion Ninja",
+    "artist": "BEMANI Sound Team \"Coyaan\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1667,
+    "title": "Ouroboros",
+    "artist": "BEMANI Sound Team \"asaki\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1668,
+    "title": "pain",
+    "artist": "BEMANI Sound Team \"TOMOSUKE\" feat. Jazzin' park & frances maya",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1669,
+    "title": "Parallax",
+    "artist": "零 -zero- × BEMANI Sound Team \"HuΣeR\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1670,
+    "title": "Pluvia",
+    "artist": "BEMANI Sound Team \"Akhuta Works\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1671,
+    "title": "POLAR NIGHT",
+    "artist": "BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1672,
+    "title": "Prey",
+    "artist": "BEMANI Sound Team \"Dustup\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1673,
+    "title": "Psychology of Temptation",
+    "artist": "BEMANI Sound Team \"劇団レコード\" feat.T4K",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1674,
+    "title": "Puberty Dysthymia",
+    "artist": "BEMANI Sound Team \"person09\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1675,
+    "title": "Q転直下",
+    "artist": "Masahiro \"Godspeed\" Aoki",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1676,
+    "title": "REBELLION",
+    "artist": "BEMANI Sound Team \"TheaterR\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1677,
+    "title": "Rejoin",
+    "artist": "BEMANI Sound Team \"HuΣeR feat.PON\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1678,
+    "title": "Remember ～ 彼方から ～",
+    "artist": "達見 恵 featured by BEMANI Sound Team \"S-C-U\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1679,
+    "title": "RЁVOLUTIΦN",
+    "artist": "TЁЯRA",
+    "version": "V4"
+  },
+  {
+    "id": 1680,
+    "title": "Saiph",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1681,
+    "title": "Scarlet High Heels",
+    "artist": "BEMANI Sound Team \"Loz\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1682,
+    "title": "Secret Raid",
+    "artist": "BEMANI Sound Team \"Yvya\" feat. 吾龍",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1683,
+    "title": "Serious Joke",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1684,
+    "title": "Shuffle cats",
+    "artist": "BEMANI Sound Team \"猫叉Master\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1685,
+    "title": "Six String Proof",
+    "artist": "BEMANI Sound Team \"Yvya × Mutsuhiko Izumi\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1686,
+    "title": "Slip Into My Royal Blood",
+    "artist": "BEMANI Sound Team \"あさき\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1687,
+    "title": "Snowmelt",
+    "artist": "nora2r × BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1688,
+    "title": "Sparkle Smilin' -GITADORA EDITION-",
+    "artist": "BEMANI Sound Team \"Qrispy Joybox\" feat.いちか",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1689,
+    "title": "Stargazer",
+    "artist": "BEMANI Sound Team \"asaki\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1690,
+    "title": "SUPER SUMMER SALE",
+    "artist": "BEMANI Sound Team \"U1 overground\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1691,
+    "title": "Surge",
+    "artist": "Masahiro \"Godspeed\" Aoki",
+    "version": "Tri-Boost"
+  },
+  {
+    "id": 1692,
+    "title": "Symphonic Tear",
+    "artist": "BEMANI Sound Team \"TAG\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1693,
+    "title": "TAKE YOU AWAY",
+    "artist": "SHIN feat.MiA & BEMANI Sound Team \"あさき\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1694,
+    "title": "The Metal Warrior",
+    "artist": "BEMANI Sound Team \"Holy Saint Metal Man\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1695,
+    "title": "The ULTIMATES -CHRONICLE-",
+    "artist": "BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1696,
+    "title": "The ULTIMATES -reminiscence-",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1697,
+    "title": "Touch Me",
+    "artist": "BEMANI Sound Team \"GekiReco & Sota F.\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1698,
+    "title": "toy boxer (GITADORA STYLE)",
+    "artist": "BEMANI Sound Team \"S-C-U & SYUNN × Yvya\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1699,
+    "title": "Treachery",
+    "artist": "BEMANI Sound Team \"劇団レコード\"feat.浅葉リオ",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1700,
+    "title": "triangulum",
+    "artist": "BEMANI Sound Team \"TATSUYA\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1701,
+    "title": "Trill auf G",
+    "artist": "BEMANI Sound Team \"dj TAKA\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1702,
+    "title": "Triple Cross -GITADORA Edition-",
+    "artist": "BEMANI Sound Team \"dj TAKA & DJ YOSHITAKA & SYUNN\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1703,
+    "title": "TRIPLE ORBIT",
+    "artist": "BEMANI Sound Team \"Mutsuhiko Izumi\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1704,
+    "title": "Ugly Duckling",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1705,
+    "title": "Unbelief",
+    "artist": "BEMANI Sound Team \"Anonymous\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1706,
+    "title": "Under The Shades Of The Divine Ray",
+    "artist": "BEMANI Sound Team \"asaki\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1707,
+    "title": "Violet Milky Way",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1708,
+    "title": "Vitrum",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1709,
+    "title": "VOLAQUAS -GITADO ROCK ver.-",
+    "artist": "BEMANI Sound Team \"DJ TOTTO VS 兎々\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1710,
+    "title": "voltississimo (GITADORA STYLE)",
+    "artist": "BEMANI Sound Team \"PHQUASE × Yvya\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1711,
+    "title": "White Stream",
+    "artist": "BEMANI Sound Team \"ZAQUVA\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1712,
+    "title": "Windy Fairy -GITADO ROCK ver.-",
+    "artist": "BEMANI Sound Team \"DJ TOTTO\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1713,
+    "title": "おーまい！らぶりー！すうぃーてぃ！だーりん！",
+    "artist": "BEMANI Sound Team \"PON\" feat.NU-KO",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1714,
+    "title": "かつて描いた夢は、今も色褪せぬまま。",
+    "artist": "BEMANI Sound Team \"El Dorado\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1715,
+    "title": "キミとえがくキセキ",
+    "artist": "BEMANI Sound Team \"akYm\" feat.maimie",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1716,
+    "title": "ここからよろしく大作戦143",
+    "artist": "BEMANI Sound Team \"あさき隊\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1717,
+    "title": "スーパー戦湯ババンバーン",
+    "artist": "すわひでお,秋成,かぼちゃ,藍月なくる,NU-KOby BEMANI Sound Team \"八戸亀生羅\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1718,
+    "title": "センチメンタル・イルミネーション",
+    "artist": "BEMANI Sound Team \"肥塚良彦\" feat.駄々子",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1719,
+    "title": "ただ、それだけの理由で",
+    "artist": "BEMANI Sound Team \"あさき\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1720,
+    "title": "ちくわパフェだよ☆ＣＫＰ (Yvya Remix)",
+    "artist": "Remixed by BEMANI Sound Team \"Yvya\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1721,
+    "title": "チュッチュ♪マチュピチュ",
+    "artist": "ななひら,Nana Takahashi,猫体質by BEMANI Sound Team \"劇ダンサーレコード\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1722,
+    "title": "ノルエピネフリン",
+    "artist": "BEMANI Sound Team \"U1 overground\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1723,
+    "title": "パーフェクトイーター",
+    "artist": "BEMANI Sound Team \"PON\" feat.かなたん",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1724,
+    "title": "ひと夏の戯れYeah!!Samba",
+    "artist": "BEMANI Sound Team \"哲学\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1725,
+    "title": "ピンクのボーダーライン",
+    "artist": "BEMANI Sound Team \"Yvya × OJ\" feat. ななひら",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1726,
+    "title": "プログレなぞなぞクイズのテーマ",
+    "artist": "BEMANI Sound Team \"プログレッシブなぞなぞ星人\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1727,
+    "title": "ラブキラ☆スプラッシュ -GITADORA EDITION-",
+    "artist": "BEMANI Sound Team \"Sota F. × Yvya\" feat.いちか",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1728,
+    "title": "愛という名の花をあなたに",
+    "artist": "BEMANI Sound Team \"歌劇団レコード\"feat. ミーウェル&天塚ゆうひ",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1729,
+    "title": "永",
+    "artist": "BEMANI Sound Team \"あさき\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1730,
+    "title": "鬼華-修羅の舞-",
+    "artist": "SOUND HOLIC Vs. BEMANI Sound Team \"T.Kakuta\" feat. Nana Takahashi",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1731,
+    "title": "逆さま♥シンデレラパレード",
+    "artist": "メリー・バッド・メルヘン",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1732,
+    "title": "狂水一華 -GITADORA EDITION-",
+    "artist": "BEMANI Sound Team \"HuΣeR × Yvya\" feat.いちか",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1733,
+    "title": "狂髪天を撫でて綴れ雲の綻び 五体北風に散りて痕も無し",
+    "artist": "BEMANI Sound Team \"Akhuta Works\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1734,
+    "title": "空に触れる",
+    "artist": "BEMANI Sound Team \"あさき\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1735,
+    "title": "君も天真爛漫",
+    "artist": "松山あおい＋BEMANI Sound Team\"劇団レコード\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1736,
+    "title": "血塗られたかくれんぼ",
+    "artist": "犬神凶子 & BEMANI Sound Team \"劇団レコード\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1737,
+    "title": "月が嫌いになった理由",
+    "artist": "BEMANI Sound Team \"肥塚良彦\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1738,
+    "title": "月暈",
+    "artist": "BEMANI Sound Team \"meteorologists\"",
+    "version": "FUZZ-UP"
+  },
+  {
+    "id": 1739,
+    "title": "交響曲第9番第4楽章\"歓喜の歌\"(GITADORA Edition)",
+    "artist": "BEMANI Sound Team \"セバスちゃん\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1740,
+    "title": "幸せの代償",
+    "artist": "BEMANI Sound Team \"あさき\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1741,
+    "title": "紅花",
+    "artist": "BEMANI Sound Team \"Akhuta Works\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1742,
+    "title": "紫電一閃",
+    "artist": "BEMANI Sound Team \"HuΣeR\" vs Imy feat.Fernweh",
+    "version": "Matixx"
+  },
+  {
+    "id": 1743,
+    "title": "朱殷の手毬唄",
+    "artist": "犬神凶子&BEMANI Sound Team \"劇団レコード\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1744,
+    "title": "純真可憐デザイア",
+    "artist": "BEMANI Sound Team \"HuΣeR\" feat.Fernweh",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1745,
+    "title": "硝子玉のゆくえ",
+    "artist": "BEMANI Sound Team \"Akhuta Works\" feat. NU-KO",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1746,
+    "title": "世界の果てに約束の凱歌を -GITADORA EDITION-",
+    "artist": "BEMANI Sound Team \"Yvya\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1747,
+    "title": "星座が恋した瞬間を。",
+    "artist": "BEMANI Sound Team \"DJ TOTTO feat.MarL\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1748,
+    "title": "多極性ニューロンの崩壊による人間の末路",
+    "artist": "BEMANI Sound Team \"HuΣeR × Yvya\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1749,
+    "title": "鋳鉄の檻",
+    "artist": "小寺可南子,ランコ,SARAH by BEMANI Sound Team \"Yvya\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1750,
+    "title": "天泣",
+    "artist": "BEMANI Sound Team \"meteorologists\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1751,
+    "title": "半宵とケイオス",
+    "artist": "BEMANI Sound Team \"PON\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1752,
+    "title": "斑咲花",
+    "artist": "mami,駄々子 by BEMANI Sound Team \"Akhuta Works\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1753,
+    "title": "美丽的夏日风",
+    "artist": "BEMANI Sound Team \"泉 陸奥彦\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1754,
+    "title": "美丽的家乡",
+    "artist": "劉 鋒",
+    "version": "GF8&DM7"
+  },
+  {
+    "id": 1755,
+    "title": "風鈴花火",
+    "artist": "BEMANI Sound Team \"劇団レコード\"feat.結良まり",
+    "version": "Matixx"
+  },
+  {
+    "id": 1756,
+    "title": "未練タラッタ",
+    "artist": "BEMANI Sound Team \"TAG\" feat. ヒイラギリオ",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1757,
+    "title": "眠りの国のステラ",
+    "artist": "BEMANI Sound Team \"DJ TOTTO\"",
+    "version": "EXCHAIN"
+  },
+  {
+    "id": 1758,
+    "title": "明日へと続く物語",
+    "artist": "BEMANI Sound Team \"TAG\"",
+    "version": "Matixx"
+  },
+  {
+    "id": 1759,
+    "title": "夜の女王のアリア(GITADORA Edition)",
+    "artist": "BEMANI Sound Team \"セバスちゃん\"",
+    "version": "HIGH-VOLTAGE"
+  },
+  {
+    "id": 1760,
+    "title": "蠅の王",
+    "artist": "BEMANI Sound Team \"あさき\"",
+    "version": "NEX+AGE"
+  },
+  {
+    "id": 1761,
+    "title": "in the dark",
+    "artist": "4sh",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1762,
+    "title": "My Friend",
+    "artist": "くにたけ みゆき",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1763,
+    "title": "RUINA (GITADORA EDITION)",
+    "artist": "MAX MAXIMIZER VS Dustup",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1764,
+    "title": "ZIGZAG COWBOY (GITADORA EDITION)",
+    "artist": "劇団レコード",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1765,
+    "title": "ノンストップ☆イレーション",
+    "artist": "ボタントビート",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1766,
+    "title": "ヒバナ (Reloaded)",
+    "artist": "DECO*27",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1767,
+    "title": "リボンがほどけてしまう前に",
+    "artist": "宮内凛 feat.MiA",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1768,
+    "title": "華麗なる！音戯探偵ひなビタ♫",
+    "artist": "音戯探偵ひなビタ♫",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1769,
+    "title": "心海魚",
+    "artist": "KE!JU feat. ねんね",
+    "version": "GITADORA GALAXY WAVE DELTA"
+  },
+  {
+    "id": 1770,
+    "title": "冥 (GITADORA Edition)",
+    "artist": "Amuro vs Killer feat. good-cool",
+    "version": "GITADORA GALAXY WAVE DELTA"
   }
 ];
